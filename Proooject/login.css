@@ -1,0 +1,33 @@
+.sign{
+    border:1px solid rgb(18, 19, 18);
+    border-radius: 20px;
+    background-image: linear-gradient(rgb(91, 83, 160) ,rgb(101, 104, 145));
+    width:400px;
+    height:500px;
+    display:flex;
+    flex-direction:column;
+    margin:auto;
+    margin-top: 100px;;
+    font-size: larger;
+}
+.item1{
+    color:rgb(255, 255, 255);
+    padding:20px;
+    margin-left: 20px;
+}
+input[type] {
+
+    border-bottom: 2px solid black;
+    width:300px;
+    height: 30px;
+    border-radius:10px;
+    padding-left:18px;
+    font-size: large;
+    font-family: sans-serif;
+  }
+  body{
+    background-image: url("card1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  

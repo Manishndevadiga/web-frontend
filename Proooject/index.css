@@ -1,0 +1,40 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+.fcontainer{
+    border:10px solid green;
+    display:flex;
+    justify-content: flex-end;
+    background-color: green;  
+}
+body{
+    background: url("card1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
+
+.home{
+    padding:20px;
+    font-size: larger; 
+    color: rgb(255, 255, 255);    
+}
+.home:hover{
+    background-color: aliceblue;
+    color: rgb(10, 5, 5);
+}
+a{
+    padding:20px;
+    font-size: larger; 
+    color: rgb(255, 255, 255);  
+    text-decoration: none;
+}
+a:hover{
+    background-color: aliceblue;
+    color: rgb(10, 5, 5);   
+}
+
+
+
+ 
