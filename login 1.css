@@ -1,0 +1,67 @@
+.sign{
+    border:1px solid rgb(18, 19, 18);
+    border-radius: 20px;
+    background-image: linear-gradient(rgb(55, 54, 65) ,rgb(79, 80, 92));
+    width:400px;
+    height:480px;
+    display:flex;
+    flex-direction:column;
+    margin:auto;
+    margin-top: 60px;;
+    font-size: larger;
+    padding-top: 30px;
+}
+.item1{
+    color:rgb(255, 255, 255);
+    padding:20px;
+    margin-left: 20px;
+}
+.item2{
+margin:30px 0px 0px 125px;
+}
+.submit{
+  border-radius: 30px;
+  height: 50px;
+  width:150px;
+  font-size: larger;
+  color: white;
+  background-image: linear-gradient(to  right ,red, yellow) ;
+  box-shadow:3px 6px rgb(73, 59, 59);
+  border: 0;
+}
+input[placeholder] {
+  width: 300px;
+  height:30px;
+  border:0;
+  outline:0;
+  background: transparent;
+  margin: 8px 0px 8px 0px;
+  font-size: large;
+  font-family: sans-serif;
+  border-bottom: 1px solid rgb(206, 188, 188);
+  color: rgb(255, 255, 255);
+  }
+
+  body{
+    background-image: url("card1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  input[placeholder]:hover {
+    width: 320px;
+    height:30px;
+    border:0;
+    outline:0;
+    background: transparent;
+    margin: 8px 0px 8px 0px;
+    border-bottom: 1px solid white;
+    font-size: large;
+    font-family: sans-serif;
+    color: white;
+    cursor: pointer;
+    }
+    ::placeholder{
+      color:white;
+      opacity:0.8;
+    }
+    
